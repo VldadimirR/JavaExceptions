@@ -1,3 +1,3 @@
-NumberFormatException
-ArrayIndexOutOfВoundsException
-ArithmeticException
+* NumberFormatException
+* ArrayIndexOutOfВoundsException
+* ArithmeticException
