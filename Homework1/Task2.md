@@ -1,0 +1,3 @@
+NumberFormatException
+ArrayIndexOutOfВoundsException
+ArithmeticException
