@@ -56,9 +56,7 @@ public class Terminal {
     public void run() {
         try {
             People people = createPeople();
-            // String pathName = "src/Exception/Lesson3/Zad3/Homework3/" +
-            // people.getSecondName();
-            String pathName = "C:/Users/rasal/OneDrive/Desktop/JavaEcxeption/Homework3/" + people.getSecondName();
+            String pathName = "src/Exception/Lesson3/Zad3/Homework3/" + people.getSecondName();
             recordingData.writerData(people, pathName);
         } catch (Exception e) {
             System.out.println("Ошибка при записи" + Arrays.toString(e.getStackTrace()));
